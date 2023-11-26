@@ -8,3 +8,83 @@ body {
     width: 100%;
     font-family: 'Roboto','Oswald';
 }
+
+
+
+
+.who-we-are{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A1650;
+    gap: 50px;
+    background-image: url('/public/images/dots-img.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-size: 200px 250px; */
+    background-size: 15%;
+    
+}
+
+
+
+
+.who-we-areright>h3{
+    
+    color: #1688ac;
+    font-size: large;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+.who-we-areright>p>span{
+    padding: 2px;
+    font-size: 15px;
+    background-color: aqua;
+    border-radius: 45%;
+    background-size: contain;
+    color: #0A1650;
+}
+
+.who-we-areright h2+p{
+    width: 55%;
+}
+
+.who-we-areright h2{
+    color: white;
+    width: 50%;
+}
+
+
+
+.who-we-areright h2~p{
+    color: #667AC1;
+    font-weight: bolder;
+    width: 65%;
+}
+
+.who-we-areright{
+    width: 50%;
+}
+
+.who-we-areleft {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.wwaPhoto{
+    width: 50%;
+    height: 50%;
+    
+}
+
+.wwaPhoto>img{
+    width: 110%;
+    height: 130%;
+}
