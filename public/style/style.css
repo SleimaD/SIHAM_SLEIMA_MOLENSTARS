@@ -8,3 +8,84 @@ body {
     width: 100%;
     font-family: 'Roboto','Oswald';
 }
+
+.what-we-do {
+    background-color: #122061;
+    background-image: url('/public/images/overly-img.png');
+    background-size: contain;
+    background-position: center;
+    padding: 2rem;
+}
+
+.what-we-doCards div {
+    background-color: #17256E;
+    /* width: 15%; */
+    max-width: max-content;
+    
+    height: 30%;  
+    padding: 0.8rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+.what-we-doCards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.7rem;
+}
+
+
+.what-we-doCards div>p {
+    width: 68%; 
+    color: #6C76BD;
+}
+
+.what-we-doCards div>h4 {
+    width: 85%;
+    line-height: 1.5; 
+}
+
+
+.what-we-dotop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.what-we-dotop h3 {
+    color: #0e98c2;
+}
+
+.what-we-dotop h2 {
+    color: white;
+    width: 35%;
+    text-align: center;
+}
+
+.getstarted {
+    margin-left: 43rem;
+    background-color: #09D4EC ;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+.what-we-doCards div:hover img {
+    transition: 1s ;
+    transform: translateY(-10px);
+}
+
+.what-we-doCards div:hover {
+    border: #09D4EC solid 1px;
+}
+
+
+.getstarted:hover {
+    background-color: #0b1547;
+}
