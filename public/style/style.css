@@ -8,3 +8,111 @@ body {
     width: 100%;
     font-family: 'Roboto','Oswald';
 }
+
+footer {
+    background-color: #122061;
+    background-image: url('/public/images/overly-img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #4C5DA3;
+    padding: 10px;
+}
+
+.col4 label {
+    border: solid 1px ;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.col1 {
+    width: 25%;
+    margin-top: 2rem;
+}
+
+.col1 div:nth-child(2) {
+    width: 80%;
+}
+
+.col2 {
+    width: 15%;
+   line-height: 2;
+}
+
+.col3 {
+    width: 20%;
+   line-height: 2.29;
+
+}
+
+.col4 {
+    width: 20%;
+   line-height: 2.7;
+    
+}
+
+.footertop {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+
+.col4 div {
+    margin-bottom: 22px;
+}
+
+img[alt=logo] {
+    width: 45%;
+}
+
+.coltitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.col3social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* margin-top: 1rem; */
+}
+
+.col3social img {
+    width: 7%;
+    
+}
+
+.col3social img:nth-child(1) {
+    width: 4%;
+    height: 5%;
+}
+
+
+
+.col3 div:nth-child(1) {
+    /* margin-bottom: 8px; */
+}
+
+.check {
+    display: flex;
+    gap: 5px;
+}
+
+.col3 div:nth-child(2) {
+    width: 70%;
+}
+
+
+.footerbottom {
+    border-top: solid 0.5px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5A6BB0;
+}
