@@ -9,6 +9,7 @@ body {
     font-family: 'Roboto','Oswald';
 }
 
+<<<<<<< HEAD
 header {
     background-image: url('/public/images/banner-overlay-img.png');
     background-color: #0A1650;
@@ -481,10 +482,95 @@ nav {
 
 
 .innerrightreliable>div:nth-child(2) {
+=======
+.our-news {
+    background-color: #0A1650;
+    background-image: url('/public/images/dots-img2.png');
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.our-newsTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: -40px;
+}
+
+.our-newsTop h4 {
+    color: #13A6C8;
+    margin-top: 0;
+}
+
+.our-newsTop h1 {
+    margin-top: -10px;
+    letter-spacing: 3px;
+}
+
+.our-newsBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+}
+
+.ournewsimg1 {
+    background-image: url(/public/images/blog-post-img1.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    /* background-position: center; */
+    width: 17rem;
+    height: 17rem;
+    padding: 35px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ournewsimg2 {
+    background-image: url('/public/images/blog-post-img2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 35px;
+    width: 17rem;
+    height: 17rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    /* position: relative; */
+
+}
+
+.ournewsimg1 a, .ournewsimg2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ournewsimg1 div:nth-child(1), .ournewsimg2 div:nth-child(1) {
+    font-size: 12px;
+    color: lightgray;
+}
+
+.ournewsimg1 div:nth-child(2), .ournewsimg2 div:nth-child(2) {
+    font-size: 21px;
+>>>>>>> Ournews
     font-weight: bold;
 }
 
 
+<<<<<<< HEAD
 .statistics {
     background-color: #122061 ;
     background-image: url('/public/images/overly-img.png');
@@ -558,3 +644,32 @@ button {
 .statsbox4 span {
     font-size: 10px;
 }
+=======
+
+
+.ournewsimg1 div:nth-child(1):hover {
+    color: #13A6C8;
+}
+
+.ournewsimg1 div:nth-child(2):hover {
+    color: #13A6C8;
+}
+
+.ournewsimg1 a:hover {
+    color: #13A6C8;
+}
+
+.ournewsimg2 div:nth-child(1):hover {
+    color: #13A6C8;
+}
+
+.ournewsimg2 div:nth-child(2):hover {
+    color: #13A6C8;
+}
+
+.ournewsimg2 a:hover {
+    color: #13A6C8;
+}
+
+
+>>>>>>> Ournews
