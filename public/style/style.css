@@ -8,3 +8,114 @@ body {
     width: 100%;
     font-family: 'Roboto','Oswald';
 }
+
+header {
+    background-image: url('/public/images/banner-overlay-img.png');
+    background-color: #0A1650;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+
+
+
+.headertop-right ul>li {
+    list-style: none;
+    color: white;
+}
+
+.headertop-left {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.headertop-left img {
+    width: 40%;
+}
+
+.headertop-right {
+    width: 50%;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 90%;
+    padding: 5px;
+}
+
+.headertop-right ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.headertop-right ul>li>button {
+    background-color: #0AD3EF;
+    border: none;
+    border-radius: 1.2rem;
+    color: white;
+    padding: 0.6rem;
+}
+
+
+.headerbottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 11rem;
+}
+
+.headerbottom-right img {
+    width: 95%;
+}
+
+.headerbottom-left {
+    width: 30%;
+    color: white;
+    
+}
+
+.headerbottom-right {
+    width: 30%;
+}
+
+.headerbottom-lefttexte {
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.headerbottom-left h1 {
+    width: 90%;
+    font-size: 2rem;
+}
+
+.headerbottom-leftbutton {
+    display: flex;
+    gap: 1rem;
+}
+
+.headerbottom-leftbutton button:nth-child(1) {
+    background-color: #0AD3EF;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.6rem;
+}
+
+
+.headerbottom-leftbutton button:nth-child(2) {
+    background-color: #2152A1;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.6rem;
+}
